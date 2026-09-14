@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 220px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px;
+}
